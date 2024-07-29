@@ -37,5 +37,4 @@ if submit:
     with st.expander("维基百科搜索结果"):
         st.info(search_result)
 
-#sk-TSGE8885oXfxLXSf11stD60k3HQ2TTM5rPO1Eu61mfddb6IO
 #https://api.chatanywhere.tech/v1
