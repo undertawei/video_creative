@@ -6,7 +6,7 @@ import os
 os.environ["http_proxy"] = "http://127.0.0.1:7890"
 os.environ["https_proxy"] = "http://127.0.0.1:7890"
 
-def generate_script(subject, video_length,creativity, api_key,base_url):
+def generate_script(subject, video_length,creativity, api_key):
 
     title_template = ChatPromptTemplate.from_messages(
         [
