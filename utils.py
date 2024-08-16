@@ -29,7 +29,7 @@ def generate_script(subject, video_length,creativity, api_key,base_url):
         ]
     ))
 
-    model = ChatOpenAI(api_key=api_key, base_url=base_url , temperature=creativity)
+    model = ChatOpenAI(api_key=api_key, base_url="https://api.chatanywhere.tech/v1" , temperature=creativity)
 
     title_chain = title_template | model
     script_chain = script_template | model
