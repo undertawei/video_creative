@@ -10,7 +10,7 @@ st.title("视频脚本生成器")
 with st.sidebar:
     openai_api_key = st.text_input("请输入OpenAi的API密钥：",type="password")
     st.markdown("[获取openAI API密钥](https://platform.openai.com/account/api-keys)")
-    base_url = st.text_input("请输入base_url")
+    
 
 subject = st.text_input("请输入视频的主题")
 video_length = st.number_input("请输入视频的大致上时长(分钟)",min_value=0.1,step=0.1)
