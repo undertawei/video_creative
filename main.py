@@ -28,7 +28,7 @@ if submit and not video_length >=0.1:
     st.stop()
 if submit:
     with st.spinner("Ai正在思考中,请稍后..."):
-        search_result,title,scrip = generate_script(subject,video_length,creativity,openai_api_key,base_url)
+        search_result,title,scrip = generate_script(subject,video_length,creativity,openai_api_key)
     st.success("视频脚本已生成!")
     st.subheader("标题:")
     st.write(title)
